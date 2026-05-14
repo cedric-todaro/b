@@ -164,6 +164,8 @@ xleftmargin=0.5cm
 
 \rnc{\parallel}{\mathbin{\!/\mkern-4mu/\!}}
 
+\nc{\card}[1]{\text{Card}\pa{#1}}
+
 \usepackage[dvipsnames, table]{xcolor}
 
 % Couleurs du template
@@ -202,6 +204,7 @@ xleftmargin=0.5cm
 \colorlet{grisClair}{gris!40}
 \colorlet{magentaClair}{magenta!40}
 \colorlet{turquoiseClair}{turquoise!40}
+\colorlet{grisLeger}{gris!20}
 
 % --- Couleurs de Structure (Neutres et Douces) ---
 \definecolor{ardoise}{HTML}{2C3E50}    % Pour le texte fort (remplace coulPrimaire)

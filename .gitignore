@@ -1,0 +1,53 @@
+## Core latex/pdflatex auxiliary files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+## Intermediate documents
+*.dvi
+*.xdv
+*-converted-to.*
+# Pour les fichiers générés par l'inclusion d'images
+*.pfg
+*.snm
+*.nav
+
+## Bibliography files (BibTeX/Biber)
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+## Glossaries and Indices
+*.glo
+*.idx
+*.ilg
+*.ind
+*.ist
+*.glg
+*.gls
+*.glsdefs
+
+## Tools integration
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+## Build tools (latexmk, arara, etc.)
+*.fdb_latexmk
+*.arara
+*.latexmkrc
+
