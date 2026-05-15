@@ -337,11 +337,69 @@ D'après cet énoncé, on a :
 
 Ainsi, $90\,\%$ des participants aiment au moins l'un des deux styles musicaux.
 
-%TODO: j'en suis là
 
 \definition
 
 Deux événements $A$ et $B$ sont dits \textbf{incompatibles} si $A \cap B = \varnothing$. Dans ce cas, $P(A \cup B) = P(A) + P(B)$.
+
+\begin{center}
+	\begin{tikzpicture}[scale=0.5]
+		\draw[thick] (0,0) rectangle (8,5);
+		\node at (7.6,4.6) {$\Omega$};
+		\fill[blue!30] (2.2,2.5) circle (1.2);
+		\draw[thick] (2.2,2.5) circle (1.2);
+		\node at (2.2,2.5) {$A$};
+		\fill[red!30] (5.8,2.5) circle (1.2);
+		\draw[thick] (5.8,2.5) circle (1.2);
+		\node at (5.8,2.5) {$B$};
+		\node at (4,-0.6) {$A \cap B = \varnothing$};
+	\end{tikzpicture}
+\end{center}
+
+\ex [Exemple d'événements incompatibles]
+
+On lance un dé équilibré à six faces.
+
+\begin{itemize}
+	\item $A$ : \og obtenir un nombre pair \fg
+	\item $B$ : \og obtenir le nombre $3$ \fg
+\end{itemize}
+
+Alors : $A=\{\dice{2},\dice{4},\dice{6}\}, \qquad B=\{\dice{3}\}$
+
+Comme aucun résultat n'appartient à la fois à $A$ et à $B$, on a : $$A\cap B=\varnothing$$
+
+Les événements $A$ et $B$ sont donc incompatibles.
+
+De plus, $P(A)=\dfrac{3}{6}$ et $P(B)=\dfrac{1}{6}$ et $P(A\cup B)\quad=\dfrac{3}{6}+\dfrac{1}{6}\quad =\dfrac{4}{6} $
+
+\vspace{0.8cm}
+
+\begin{center}
+	\begin{tikzpicture}[scale=1]
+
+		% Univers
+		\draw[thick] (0,0) rectangle (8,4);
+		\node at (7.6,3.6) {$\Omega$};
+
+		% Ensemble A
+		\fill[blue!25] (2.3,2) circle (1);
+		\draw[thick] (2.3,2) circle (1);
+		\node at (2.3,2) {$A$};
+
+		% Ensemble B
+		\fill[red!25] (5.7,2) circle (1);
+		\draw[thick] (5.7,2) circle (1);
+		\node at (5.7,2) {$B$};
+
+		% Texte
+		\node at (4,-0.5) {$A\cap B=\varnothing$};
+
+	\end{tikzpicture}
+\end{center}
+
+
+%TODO: j'en suis là
 
 \section{Représentations graphiques}
 
@@ -385,4 +443,3 @@ Utiles pour les expériences répétées ou à étapes successives.
 			};
 	\end{tikzpicture}
 \end{center}
-
